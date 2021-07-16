@@ -1,0 +1,14 @@
+devices:
+  c1100:
+    connections:
+      cli:
+        ip: 10.64.110.1
+        protocol: ssh
+    credentials:
+      default:
+        password: pw
+        username: admin
+      enable:
+        password: pw
+    os: iosxe
+    type: iosxe

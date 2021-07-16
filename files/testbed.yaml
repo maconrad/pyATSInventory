@@ -1,0 +1,18 @@
+testbed:
+    name: MarioHome
+
+devices:    
+    c1100:
+        type: router
+        os: iosxe
+        alias: homebox
+        credentials:
+            default:
+                username: admin
+                password: pw
+            enable:
+                password: pw
+        connections:
+            mgmt:
+                protocol: ssh
+                ip: 10.64.110.1

@@ -1,0 +1,2 @@
+hostname,ip,username,password,protocol,os
+c1100,10.64.110.1,admin,pw,ssh,iosxe

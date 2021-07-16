@@ -1,0 +1,7 @@
+Libraries:
+- pyats
+- pyats.contrib
+- genie
+- rich
+  
+pyats create testbed file --path files/hosts.csv --output files/my_testbed.yaml
