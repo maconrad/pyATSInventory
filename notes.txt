@@ -5,3 +5,13 @@ Libraries:
 - rich
   
 pyats create testbed file --path files/hosts.csv --output files/my_testbed.yaml
+
+Terminology
+- Testbed: devices
+- Parsers: CLI to JSON
+- Models: implementation YANG Models
+
+Links
+- https://pubhub.devnetcloud.com/media/genie-docs/docs/cli/genie_create.html
+- https://developer.cisco.com/docs/pyats/#!connection-to-devices/device-connections
+- https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/parsers
